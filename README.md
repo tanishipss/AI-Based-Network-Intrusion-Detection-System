@@ -1,20 +1,51 @@
-# AI-Based-Network-Intrusion-Detection-System
-<<<<<<< HEAD
-NIDS using Machine Learning (ML) and Deep Learning (DL) algorithms for enhanced accuracy in detecting and preventing various forms of network intrusions. Providing a best-fit model that can generate greater accuracy for prevention process of malicious intrusion in the system.
+# AI-Based Network Intrusion Detection & Prevention System
 
-**Dataset can be downloded from this link-http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html**
+##  Overview
+This project implements an AI-based Network Intrusion Detection and Prevention
+System (NIDS/IPS) that analyzes network traffic using Machine Learning algorithms
+to identify malicious activities and prevent intrusions in real time.
+The system includes a GUI interface, model training/testing, and accuracy
+comparison of multiple algorithms.
 
-Steps to download and use the system
-Clone the repository from github.
-Install the dependencies from the requirement.txt document.
-Run registration.py for registration of new user.//only if new user otherwise run *login.py.
-Run GUI_IDS_login.py to login use username-vishal && password-123 after you will redirect to the homepage of ids.
-Click on train button to train pruposed model.
-Click on test button to test the model.
-Click on the Accuracy button to check the accuracy of the proposed model with validation set.
-Click on the Class probability button to check particular class found how many times.
-Click on the compare_accuracy button to compare the accuracy of the proposed model with other models.
-Click Exit button to shutdown the ids.
-=======
-AI-based Network Intrusion Detection &amp; Prevention System that analyzes network traffic using machine learning algorithms to identify malicious activities in real time. Includes GUI-based monitoring, algorithm accuracy comparison, and automated threat prevention.
->>>>>>> fe355edd4e200a6ebe5ec3106bb855630c27dd55
+---
+
+##  Key Features
+- Machine Learning–based intrusion detection
+- GUI-based monitoring and control
+- Comparison of multiple ML algorithms
+- Real-time detection of malicious traffic
+- Model training, testing, and accuracy evaluation
+- Modular and scalable system design
+
+---
+
+##  Algorithms Used
+- Random Forest  
+- Support Vector Machine (SVM)  
+- Logistic Regression  
+
+Models are evaluated using accuracy metrics to select the best-performing model.
+
+---
+
+##  Tech Stack
+- **Language:** Python  
+- **Libraries:** NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn  
+- **GUI:** Tkinter  
+- **Dataset:** KDD Cup 99 Network Intrusion Dataset  
+
+---
+
+##  Dataset
+The dataset used for this project can be downloaded from:  
+http://kdd.ics.uci.edu/databases/kddcup99/kddcup99.html  
+
+> The dataset is not included in this repository due to size constraints.
+
+---
+
+## Installation
+Clone the repository:
+```bash
+git clone https://github.com/tanishipss/AI-Based-Network-Intrusion-Detection-System.git
+cd AI-Based-Network-Intrusion-Detection-System
