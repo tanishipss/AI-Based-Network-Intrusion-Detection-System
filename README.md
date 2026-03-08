@@ -143,3 +143,98 @@ These metrics demonstrate the model's ability to effectively detect malicious ne
 ---
 
 ## Project Workflow
+Network Traffic Data
+↓
+Data Preprocessing
+↓
+Feature Engineering
+↓
+Model Training
+↓
+Model Evaluation
+↓
+Intrusion Detection
+
+
+---
+
+## Project Structure
+
+
+AI-Based-Network-Intrusion-Detection-System
+│
+├── dataset/ # Network traffic dataset
+├── static/ # Static files (CSS, assets)
+├── templates/ # HTML templates for the web interface
+│
+├── app.py # Main Flask application
+├── model.py # Machine learning model logic
+├── preprocessing.py # Data preprocessing scripts
+│
+├── requirements.txt # Project dependencies
+└── README.md # Project documentation
+
+
+---
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tanishipss/AI-Based-Network-Intrusion-Detection-System.git
+
+Navigate to the project directory:
+
+cd AI-Based-Network-Intrusion-Detection-System
+
+Install the required dependencies:
+
+pip install -r requirements.txt
+Running the Project
+
+Run the application:
+
+python app.py
+
+Then open your browser and visit:
+
+http://localhost:5000
+Applications
+
+This project can be applied in:
+
+Network security monitoring
+
+Intrusion detection systems
+
+Cybersecurity research
+
+Threat detection platforms
+
+Security analytics systems
+
+Future Improvements
+
+Possible improvements include:
+
+Deep learning based intrusion detection
+
+Real-time network packet monitoring
+
+Integration with network monitoring tools
+
+Cloud deployment
+
+Advanced visualization dashboards
+
+Author
+
+Tanisha Yadav
+
+GitHub Profile:
+https://github.com/tanishipss
+
+License
+
+This project is licensed under the MIT License.
