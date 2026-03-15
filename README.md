@@ -1,4 +1,4 @@
-# AI-Based Network Intrusion Detection System
+# 🔐 AI Network Intrusion Detection System (ML + Cybersecurity)
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-orange)
